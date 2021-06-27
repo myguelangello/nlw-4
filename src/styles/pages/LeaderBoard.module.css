@@ -1,0 +1,88 @@
+.leaderboardContainer {
+    position: absolute;
+    left: 6rem;
+    background: var(--background);
+    height: 100vh;
+    max-width: 992px;
+    margin: 0 auto;
+    right: 0;
+    padding: 2.5rem 2rem;
+    /*     
+    display: flex;
+    flex-direction: column;
+     */
+}
+
+.title {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.leaderboardHeader {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 0.30fr 1.5fr 0.5fr 0.5fr;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.card {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 0.25fr 1.5fr 0.5fr 0.5fr;
+    gap: 0.25rem;
+}
+
+.cardPosition {
+    background: var(--white);
+    width: 4.5rem;
+    height: 6rem;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.cardProfile {
+    background: var(--white);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cardProfile>img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-left: 0.25rem
+}
+
+.cardProfile div {
+    margin-left: 1.5rem;
+}
+
+.cardProfile div strong {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.cardProfile div p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.cardProfile div p img {
+    margin-right: 0.5rem;
+}
+
+.cardChallenges {
+    background: var(--white);
+}
