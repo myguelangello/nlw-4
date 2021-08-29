@@ -65,7 +65,7 @@
     
   ```bash
   #Instalar as dependências
-  $ yarn
+  $ yarn install
   
   #Iniciar o projeto
   $ yarn start
@@ -78,7 +78,7 @@
      
   ```bash
   #Instalar as dependências
-  $ npm
+  $ npm install
   
   #Iniciar o projeto
   $ npm start
